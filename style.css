@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    align-content: center;
+}
+
+textarea {
+    max-width: 100%;
+    padding: 8px;
+}
+
+pre {
+    background-color: rgb(241, 241, 241);
+    min-height: 77px;
+    padding: 8px;
+}
